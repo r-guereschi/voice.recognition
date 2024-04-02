@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --bg-color: #222831;
+  --grey: #31363f;
+  --ocean-blue: #76abae;
+  --white: #eeeeee;
+  --font-family: "Libre Franklin";
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--white);
+
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  text-align: center;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  font-weight: 500;
+}
+
+.voce-disse {
+  margin: 1em 0 2.5em 0;
+  font-size: 2em;
+}
+
+.box {
+  font-size: 6em;
+  font-weight: 600;
+  border: 5px solid var(--white);
+  padding: 0.1em;
+}
+
+.texto-maior-menor {
+  margin-top: 3em;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 6em;
+}
+
+.btn-jogar {
+  padding: 0.2em;
+  border: 0;
+  background-color: var(--grey);
+  border-radius: 16px;
+  margin-top: 3em;
+  font-size: 5em;
+  color: var(--ocean-blue);
+  transition-duration: 300ms;
+}
+
+.btn-jogar:hover {
+    background-color: var(--ocean-blue);
+    color: var(--bg-color);
+    transition-duration: 300ms;
+}
